@@ -1,0 +1,100 @@
+
+
+.pagina-contacto {
+    padding: 30px;
+    color: #F8FAFC;
+}
+
+.contenido-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: start;
+}
+
+
+.contenedor-mapa {
+    background-color: #1E293B;
+    color: #F8FAFC;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.contenedor-mapa h2 {
+    margin-bottom: 10px;
+}
+
+.contenedor-mapa iframe {
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 768px) {
+    .contenido-contacto {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.contenedor-formulario {
+    background-color: #1E293B;
+    color: #F8FAFC;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.contenedor-formulario h2 {
+    margin-bottom: 20px;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario-contacto label {
+    display: block;
+    color: #F8FAFC;
+    font-weight: bold;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    background-color: #F8FAFC;
+    color: #101827;
+    font-size: 15px;
+}
+
+.formulario-contacto textarea {
+    resize: vertical;
+    font-family: inherit;
+}
+
+.formulario-contacto button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #38BDF8;
+    color: #101827;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario-contacto button:hover {
+    background-color: #0EA5E9;
+}
+
+.formulario-contacto button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

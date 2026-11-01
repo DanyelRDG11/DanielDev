@@ -1,0 +1,16 @@
+
+.footer {
+    margin-top: auto;
+    padding: 30px 20px;
+    background-color: #0B1220;
+    color: #F8FAFC;
+    text-align: center;
+    border-top: 2px solid #38BDF8;
+}
+
+
+.footer > p {
+    color: #CBD5E1;
+    margin-bottom: 20px;
+}
+
